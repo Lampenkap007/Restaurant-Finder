@@ -1,0 +1,25 @@
+.containerList {
+  padding: 20px;
+}
+.restaurantTitle {
+  font-size: 26px;
+  font-weight: 600;
+}
+.restaurantImg {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.restaurantDescription {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.restaurantCard {
+  width: 100%;
+}
+.uspList {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
