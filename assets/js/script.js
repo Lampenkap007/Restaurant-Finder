@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", init);
 
 function init() {
     loadRestaurants();
+    document.querySelector("#type").addEventListener("change", filterRestaurants);
+    document.querySelector("#price").addEventListener("change", filterRestaurants);
 }
 
 async function loadRestaurants() {
@@ -17,7 +19,7 @@ async function loadRestaurants() {
 
 function createRestaurantCard(restaurant) {
     return `
-        <div class="restaurantCard">
+        <div class="restaurantCard" data-type="${restaurant.type}" data-price="${restaurant.priceRange}">
             <img class="restaurantImg" src="${restaurant.img}" alt="Image of ${restaurant.name}">
             <h2 class="restaurantTitle">${restaurant.name}</h2>
             <p class="restaurantDescription">${restaurant.description}</p>
@@ -29,22 +31,19 @@ function createRestaurantCard(restaurant) {
         </div>
     `
 }
-function ApplyFilter() {
-   console.log(document.querySelectorAll("#restaurant"))
 
-   var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("typeInput");
-    filter = input.value;
-    ul = document.getElementById("restaurantsList");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("span")[0];
-        txtValue = a.innerHTML;
-        if (txtValue.indexOf(filter) > -1) {
-            li[i].style.display = "";
+function filterRestaurants(e) {
+    document.querySelectorAll(".restaurantCard").forEach(restaurantCard => {
+        const $selectedType = document.querySelector("#type").value;
+        const $selectedPrice = document.querySelector("#price").value;
+        const $type = restaurantCard.dataset.type;
+        const $price = restaurantCard.dataset.price;
+        const matchingType = $selectedType === "None" || $selectedType === $type;
+        const matchingPrice = $selectedPrice === "None" || $selectedPrice === $price;
+        if (matchingType && matchingPrice) {
+            restaurantCard.classList.remove("hidden");
         } else {
-            li[i].style.display = "none";
+            restaurantCard.classList.add("hidden");
         }
-    }
+    });
 }
-
