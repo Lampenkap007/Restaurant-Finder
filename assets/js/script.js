@@ -18,7 +18,7 @@ async function loadRestaurants() {
 function createRestaurantCard(restaurant) {
     return `
         <div class="restaurantCard">
-            <img class="${restaurant.img}" alt="Image of ${restaurant.name}">
+            <img class="restaurantImg" src="${restaurant.img}" alt="Image of ${restaurant.name}">
             <h2 class="restaurantTitle">${restaurant.name}</h2>
             <p class="restaurantDescription">${restaurant.description}</p>
             <ul class="uspList">
