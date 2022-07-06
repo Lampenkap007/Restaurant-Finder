@@ -1,3 +1,62 @@
 [
-    
+    {
+        "name": "Bar Vermudez",
+        "type": "Tapas",
+        "priceRange": "average",
+        "open": "everyday except Sunday"
+    },
+    {
+        "name": "Paffuto",
+        "type": "Italian",
+        "priceRange": "average",
+        "open": "everyday"
+    },
+    {
+        "name": "Sushi Room",
+        "type": "Asian",
+        "priceRange": "expensive",
+        "open": "everyday except Monday"
+    },
+    {
+        "name": "Thai Mongkut",
+        "type": "thai",
+        "priceRange": "expensive",
+        "open": "everyday"
+    },
+    {
+        "name": "Damura Ramen",
+        "type": "Ramen",
+        "priceRange": "cheap",
+        "open": "everyday except Monday"
+    },
+    {
+        "name": "La Taula de Yoon",
+        "type": "Korean",
+        "priceRange": "average",
+        "open": "everyday except Monday, Tuesday, Wednesday and Thursday"
+    },
+    {
+        "name": "Balansiya",
+        "type": "Marrokaans",
+        "priceRange": "cheap",
+        "open": "everyday"
+    },
+    {
+        "name": "Yuso",
+        "type": "Mediterranian",
+        "priceRange": "average",
+        "open": "everyday except monday, tuesday, wednesday and thursday"
+    },
+    {
+        "name": "Bar Jucar",
+        "type": "Tapas",
+        "priceRange": "cheap",
+        "open": "everyday except sunday"
+    },
+    {
+        "name": "Bodega Flor",
+        "type": "Tapas",
+        "priceRange": "average",
+        "open": "everyday except monday and sunday"
+    }
 ]
