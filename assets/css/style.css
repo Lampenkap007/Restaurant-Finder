@@ -5,6 +5,7 @@
 .containerList {
   margin: 20px 40px 40px 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .restaurantTitle {

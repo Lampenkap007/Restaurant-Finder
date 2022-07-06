@@ -3,60 +3,70 @@
         "name": "Bar Vermudez",
         "type": "Tapas",
         "priceRange": "average",
-        "open": "everyday except Sunday"
+        "open": "everyday except Sunday",
+        "description": "Locally sourced tapas and vermouth served in a sophisticated location with an outdoor patio."
     },
     {
         "name": "Paffuto",
         "type": "Italian",
         "priceRange": "average",
-        "open": "everyday"
+        "open": "everyday",
+        "description": "Authentic Italian dough with minimum fermentation of 72 hours. We make it from sourdough with the best products brought from Italy. Enjoy authentic Italian pizza."
     },
     {
         "name": "Sushi Room",
         "type": "Asian",
         "priceRange": "expensive",
-        "open": "everyday except Monday"
+        "open": "everyday except Monday",
+        "description": "Experience great Asian cuisine. We serve you dishes that are freshly made and authentic. Enjoy a wonderful evening in our outdoor seating area."
     },
     {
         "name": "Thai Mongkut",
         "type": "thai",
         "priceRange": "expensive",
-        "open": "everyday"
+        "open": "everyday",
+        "description": "Lively restaurant serving traditional Thai street food prepared with fresh market ingredients."
     },
     {
         "name": "Damura Ramen",
         "type": "Ramen",
         "priceRange": "cheap",
-        "open": "everyday except Monday"
+        "open": "everyday except Monday",
+        "description": "Our food is the Japanese version of Chinese cuisine. If evolved rapidly in the last century when Chinese migrants became integrated into Japanese culture."
     },
     {
         "name": "La Taula de Yoon",
         "type": "Korean",
         "priceRange": "average",
-        "open": "everyday except Monday, Tuesday, Wednesday and Thursday"
+        "open": "everyday except Monday, Tuesday, Wednesday and Thursday",
+        "description": "Modern Korean cuisine served in a simple, compact eatery with understated decor."
     },
     {
         "name": "Balansiya",
         "type": "Marrokaans",
         "priceRange": "cheap",
-        "open": "everyday"
+        "open": "everyday",
+        "description": "Restaurant in Valencia with Arab, Moroccan and halal cuisine of Andalusian tradition."
     },
     {
         "name": "Yuso",
         "type": "Mediterranian",
         "priceRange": "average",
-        "open": "everyday except monday, tuesday, wednesday and thursday"
+        "open": "everyday except monday, tuesday, wednesday and thursday",
+        "description": "At Yuso Restaurants we believe in the traditional way of making our rice dishes and traditional dishes of Valencian cuisine."
     },
     {
         "name": "Bar Jucar",
         "type": "Tapas",
         "priceRange": "cheap",
-        "open": "everyday except sunday"
+        "open": "everyday except sunday",
+        "description": "Locally sourced bar and vermouth served in a sophisticated location with an outdoor patio."
     },
     {
         "name": "Bodega Flor",
         "type": "Tapas",
         "priceRange": "average",
-        "open": "everyday except monday and sunday"
+        "open": "everyday except monday and sunday",
+        "description": "Welcome to the paradise of good food, in our restaurant you will enjoy a fantastic daily menu that will satisfy both your palate and your pocket."
     }
 ]
