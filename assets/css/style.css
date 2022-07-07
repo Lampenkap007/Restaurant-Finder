@@ -63,6 +63,10 @@ select {
   justify-content: space-between;
 }
 
+.uspItem {
+  margin-left: -10%;
+}
+
 .hidden {
   display: none;
 }
