@@ -26,7 +26,7 @@ function createRestaurantCard(restaurant) {
             <p class="restaurantDescription">${restaurant.description}</p>
             <ul class="uspList">
                 <li class="uspItem">${restaurant.type}</li>
-                <li>|</li>
+                <li>&#124;</li>
                 <li class="uspItem">${restaurant.priceRange}</li>
             </ul>
         </div>
