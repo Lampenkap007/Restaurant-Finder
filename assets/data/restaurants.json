@@ -5,7 +5,8 @@
         "priceRange": "Average",
         "open": "everyday except Sunday",
         "description": "Locally sourced tapas and vermouth served in a sophisticated location with an outdoor patio.",
-        "img": "./assets/media/resto1.jpg"
+        "img": "./assets/media/resto1.jpg",
+        "website": "https://www.instagram.com/bar_vermudez/"
     },
     {
         "name": "Paffuto",
@@ -13,7 +14,8 @@
         "priceRange": "Average",
         "open": "everyday",
         "description": "Authentic Italian dough with minimum fermentation of 72 hours. We make it from sourdough with the best products brought from Italy. Enjoy authentic Italian pizza.",
-        "img": "./assets/media/resto2.jpg"
+        "img": "./assets/media/resto2.jpg",
+        "website": "https://paffutorestaurante.es/"
     },
     {
         "name": "Sushi Room",
@@ -21,7 +23,8 @@
         "priceRange": "Expensive",
         "open": "everyday except Monday",
         "description": "Experience great Asian cuisine. We serve you dishes that are freshly made and authentic. Enjoy a wonderful evening in our outdoor seating area.",
-        "img": "./assets/media/resto3.jpg"
+        "img": "./assets/media/resto3.jpg",
+        "website": "https://www.thesushiroom.es/?lang=en"
     },
     {
         "name": "Thai Mongkut",
@@ -29,7 +32,8 @@
         "priceRange": "Expensive",
         "open": "everyday",
         "description": "Lively restaurant serving traditional Thai street food prepared with fresh market ingredients.",
-        "img": "./assets/media/resto4.jpg"
+        "img": "./assets/media/resto4.jpg",
+        "website": "https://thaimongkut.es/"
     },
     {
         "name": "Damura Ramen",
@@ -37,7 +41,8 @@
         "priceRange": "Cheap",
         "open": "everyday except Monday",
         "description": "Our food is the Japanese version of Chinese cuisine. If evolved rapidly in the last century when Chinese migrants became integrated into Japanese culture.",
-        "img": "./assets/media/resto5.jpg"
+        "img": "./assets/media/resto5.jpg",
+        "website": "https://damuraramenbar.com/"
     },
     {
         "name": "La Taula de Yoon",
@@ -45,7 +50,8 @@
         "priceRange": "Average",
         "open": "everyday except Monday, Tuesday, Wednesday and Thursday",
         "description": "Modern Korean cuisine served in a simple, compact eatery with understated decor.",
-        "img": "./assets/media/resto6.jpg"
+        "img": "./assets/media/resto6.jpg",
+        "website": "https://www.instagram.com/latauladeyoon/"
     },
     {
         "name": "Balansiya",
@@ -53,7 +59,8 @@
         "priceRange": "Cheap",
         "open": "everyday",
         "description": "Restaurant in Valencia with Arab, Moroccan and halal cuisine of Andalusian tradition.",
-        "img": "./assets/media/resto7.jpg"
+        "img": "./assets/media/resto7.jpg",
+        "website": "https://balansiya.com/carta.html"
     },
     {
         "name": "Yuso",
@@ -61,7 +68,8 @@
         "priceRange": "Average",
         "open": "everyday except monday, tuesday, wednesday and thursday",
         "description": "At Yuso Restaurants we believe in the traditional way of making our rice dishes and traditional dishes of Valencian cuisine.",
-        "img": "./assets/media/resto8.jpg"
+        "img": "./assets/media/resto8.jpg",
+        "website": "https://www.restaurantesyuso.com/"
     },
     {
         "name": "Bar Jucar",
@@ -69,7 +77,8 @@
         "priceRange": "Cheap",
         "open": "everyday except sunday",
         "description": "Locally sourced bar and vermouth served in a sophisticated location with an outdoor patio.",
-        "img": "./assets/media/resto9.jpg"
+        "img": "./assets/media/resto9.jpg",
+        "website": "https://www.instagram.com/@barjucar."
     },
     {
         "name": "Bodega Flor",
@@ -77,6 +86,7 @@
         "priceRange": "Average",
         "open": "everyday except monday and sunday",
         "description": "Welcome to the paradise of good food, in our restaurant you will enjoy a fantastic daily menu that will satisfy both your palate and your pocket.",
-        "img": "./assets/media/resto10.jpg"
+        "img": "./assets/media/resto10.jpg",
+        "website": "http://www.restaurantebodegaflor.es/"
     }
 ]
