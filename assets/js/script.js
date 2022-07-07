@@ -2,10 +2,11 @@
 
 document.addEventListener("DOMContentLoaded", init);
 
-function init() {
-    loadRestaurants();
+async function init() {
+    await loadRestaurants();
     document.querySelector("#type").addEventListener("change", filterRestaurants);
     document.querySelector("#price").addEventListener("change", filterRestaurants);
+    document.querySelectorAll(".restaurantCard").forEach(restaurantCard => restaurantCard.addEventListener("click", openRestaurantWebsite));
 }
 
 async function loadRestaurants() {
@@ -19,7 +20,7 @@ async function loadRestaurants() {
 
 function createRestaurantCard(restaurant) {
     return `
-        <div class="restaurantCard" data-type="${restaurant.type}" data-price="${restaurant.priceRange}">
+        <div class="restaurantCard" data-type="${restaurant.type}" data-price="${restaurant.priceRange}" data-website="${restaurant.website}">
             <img class="restaurantImg" src="${restaurant.img}" alt="Image of ${restaurant.name}">
             <h2 class="restaurantTitle">${restaurant.name}</h2>
             <p class="restaurantDescription">${restaurant.description}</p>
@@ -32,7 +33,7 @@ function createRestaurantCard(restaurant) {
     `
 }
 
-function filterRestaurants(e) {
+function filterRestaurants(evt) {
     document.querySelectorAll(".restaurantCard").forEach(restaurantCard => {
         const $selectedType = document.querySelector("#type").value;
         const $selectedPrice = document.querySelector("#price").value;
@@ -46,4 +47,10 @@ function filterRestaurants(e) {
             restaurantCard.classList.add("hidden");
         }
     });
+}
+
+function openRestaurantWebsite(evt) {
+    const restaurantCard = evt.currentTarget;
+    const website = restaurantCard.dataset.website;
+    window.location.href = website;
 }
