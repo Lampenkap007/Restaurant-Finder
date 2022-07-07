@@ -61,10 +61,8 @@ select {
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.uspItem {
   margin-left: -10%;
+
 }
 
 .hidden {
